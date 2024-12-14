@@ -1,0 +1,44 @@
+Time resolution is 1 ps
+Debug - Register Values:
+  R1 = 00
+  R2 = 00
+  Operation:     ADD
+  Operands: A=00, B=00
+  Result: 00
+Result mismatch: PC=0, Expected 06, Got 00
+Debug - Register Values:
+  R1 = 00
+  R2 = 00
+  Operation:     SUB
+  Operands: A=00, B=00
+  Result: 00
+Result mismatch: PC=1, Expected 02, Got 00
+Debug - Register Values:
+  R1 = 00
+  R2 = 00
+  Operation:     AND
+  Operands: A=00, B=00
+  Result: 00
+Result verified: PC=2, Expected 00, Got 00
+Debug - Register Values:
+  R1 = 00
+  R2 = 00
+  Operation:      OR
+  Operands: A=00, B=00
+  Result: 00
+Result mismatch: PC=3, Expected 06, Got 00
+Debug - Register Values:
+  R1 = 00
+  R2 = 00
+  Operation:     XOR
+  Operands: A=00, B=00
+  Result: 00
+Result verified: PC=4, Expected 00, Got 00
+Debug - Register Values:
+  R1 = 00
+  R2 = 00
+  Operation:     NOR
+  Operands: A=00, B=00
+  Result: ff
+Result mismatch: PC=5, Expected f9, Got ff
+$finish called at time : 270 ns : File "C:/Users/HP/Downloads/in_order_processor/in_order_processor.srcs/sources_1/new/main.v" Line 62
